@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+
+<html lang="ar" dir="rtl">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>EyeCheck - فحص ومتابعة العين</title>
+
+<style>
+
+* {
+
+  box-sizing: border-box;
+
+}
+
+body {
+
+  margin: 0;
+
+  font-family: Arial, sans-serif;
+
+  background: #f3f7fa;
+
+  color: #18334a;
+
+}
+
+header {
+
+  background: #073b50;
+
+  color: white;
+
+  text-align: center;
+
+  padding: 35px 15px;
+
+}
+
+.logo {
+
+  font-size: 35px;
+
+  font-weight: bold;
+
+}
+
+header p {
+
+  color: #c5e5ed;
+
+}
+
+.container {
+
+  max-width: 600px;
+
+  margin: 30px auto;
+
+  padding: 20px;
+
+}
+
+.card {
+
+  background: white;
+
+  padding: 25px;
+
+  border-radius: 18px;
+
+  box-shadow: 0 5px 20px #00000010;
+
+  text-align: center;
+
+}
+
+.eye {
+
+  font-size: 65px;
+
+}
+
+h2 {
+
+  color: #087b91;
+
+}
+
+button {
+
+  background: #087b91;
+
+  color: white;
+
+  border: none;
+
+  border-radius: 12px;
+
+  padding: 15px;
+
+  width: 100%;
+
+  font-size: 18px;
+
+  margin-top: 15px;
+
+}
+
+.info {
+
+  background: #e3f2f5;
+
+  padding: 15px;
+
+  border-radius: 12px;
+
+  margin-top: 20px;
+
+  line-height: 1.8;
+
+}
+
+footer {
+
+  text-align: center;
+
+  padding: 25px;
+
+  color: #71818d;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+  <div class="logo">👁 EyeCheck</div>
+
+  <p>رعايتك لعينيك تبدأ من هنا</p>
+
+</header>
+
+<div class="container">
+
+  <div class="card">
+
+    <div class="eye">👁️</div>
+
+    <h2>أهلاً بك في EyeCheck</h2>
+
+    <p>
+
+      منصتك لمتابعة صحة العين والتوعية
+
+      بأهمية الفحص الدوري.
+
+    </p>
+
+    <button onclick="showInfo()">
+
+      ابدأ رحلتك مع EyeCheck
+
+    </button>
+
+    <div id="result"></div>
+
+  </div>
+
+  <div class="info">
+
+    <h3>لماذا EyeCheck؟</h3>
+
+    <p>
+
+      • التوعية بصحة العين.<br>
+
+      • التعرف على أهمية فحص النظر.<br>
+
+      • المساعدة في الوصول للمختصين.<br>
+
+      • متابعة مواعيد الفحص.
+
+    </p>
+
+  </div>
+
+</div>
+
+<footer>
+
+  © 2026 EyeCheck - جميع الحقوق محفوظة
+
+</footer>
+
+<script>
+
+function showInfo() {
+
+  document.getElementById("result").innerHTML =
+
+    "<h3>أهلاً بك ❤️</h3><p>احجز فحصك لدى مختص عيون مؤهل للاطمئنان على صحة عينيك.</p>";
+
+}
+
+</script>
+
+</body>
+
+</html>
